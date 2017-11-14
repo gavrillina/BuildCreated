@@ -1,0 +1,20 @@
+2017-11-06 16:34:48,189 ERROR  [main] Runner.main(Runner.java:21) IIlluminanceTooMuchError
+2017-11-06 16:36:39,194 ERROR  [main] Runner.main(Runner.java:21) IIlluminanceTooMuchError
+2017-11-10 11:08:58,135 ERROR  [main] Runner.main(Runner.java:37) error
+2017-11-13 10:40:49,751 ERROR  [main] Runner.main(Runner.java:36) Too much furneture
+2017-11-13 10:43:10,243 ERROR  [main] Runner.main(Runner.java:36) Too much furneture
+2017-11-13 10:47:19,325 ERROR  [main] Runner.main(Runner.java:36) Too much furneture
+2017-11-13 10:50:33,408 ERROR  [main] Runner.main(Runner.java:36) Too much furneture
+2017-11-13 10:52:09,011 ERROR  [main] Runner.main(Runner.java:36) Too much furneture
+2017-11-13 10:53:45,596 ERROR  [main] Runner.main(Runner.java:36) Too much furneture
+2017-11-13 10:55:00,396 ERROR  [main] Runner.main(Runner.java:36) Too much furneture
+2017-11-13 10:55:13,790 ERROR  [main] Runner.main(Runner.java:36) Too much furneture
+2017-11-13 10:56:26,845 ERROR  [main] Runner.main(Runner.java:36) Too much furneture
+2017-11-13 10:56:34,042 ERROR  [main] Runner.main(Runner.java:36) Too much furneture
+2017-11-13 10:57:17,867 ERROR  [main] Runner.main(Runner.java:36) Too much furneture
+2017-11-13 11:18:56,814 ERROR  [main] Runner.main(Runner.java:41) Too much furneture
+2017-11-13 11:22:10,531 ERROR  [main] Runner.main(Runner.java:41) Too much furneture
+2017-11-13 11:23:17,873 ERROR  [main] Runner.main(Runner.java:36) Too much illuminance
+2017-11-13 11:24:23,870 ERROR  [main] Runner.main(Runner.java:41) Too much illuminance
+2017-11-13 11:37:12,585 ERROR  [main] Runner.main(Runner.java:40) Too much illuminance
+2017-11-13 11:38:01,693 ERROR  [main] Runner.main(Runner.java:40) Too much illuminance
