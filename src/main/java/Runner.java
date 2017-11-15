@@ -29,7 +29,7 @@ public class Runner {
         building.getRoom(0).addIlluminance("Лампочка", 13);
         building.getRoom(0).addIlluminance("Лампа", 15);
 
-        logger.debug("Describe");
+        logger.debug("Produce describe");
 
 
         try {

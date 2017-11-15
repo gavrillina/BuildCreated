@@ -5,8 +5,7 @@ public class Building {
 
     private String name;
 
-   private List<Room> rooms = new ArrayList<Room>();
-
+    private List<Room> rooms = new ArrayList<Room>();
 
 
     public String getBuildingtName() {
@@ -19,6 +18,7 @@ public class Building {
 
 
     public void addRoom(String name, int area, int countWindow) {
+
         Room room = new Room();
         room.setName(name);
         room.setArea(area);
@@ -41,8 +41,8 @@ public class Building {
 
 
     public void describe() throws IlluminanceTooMuchException, SpaceUsageTooMuchException {
-        Building building = new Building(name);
-        System.out.println(building.getBuildingtName());
+
+        System.out.println(getBuildingtName());
         String roomDecscibe;
         for (int i = 0; i < rooms.size(); i++) {
             roomDecscibe = rooms.get(i).getName();

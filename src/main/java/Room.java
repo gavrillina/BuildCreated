@@ -10,9 +10,9 @@ public class Room {
     private final int ILLUMINANCEWINDOW = 700;
 
 
-   private List<Illuminance> illuminances = new ArrayList<Illuminance>();
+    private List<Illuminance> illuminances = new ArrayList<Illuminance>();
 
-   private List<Furneture> furnetures = new ArrayList<Furneture>();
+    private List<Furneture> furnetures = new ArrayList<Furneture>();
 
     public Room() {
     }
@@ -81,7 +81,7 @@ public class Room {
         for (int i = 0; i < illuminances.size(); i++) {
             allowIlluminance = illuminances.get(i).getIlluminance();
         }
-            allowIlluminance = countWindow * ILLUMINANCEWINDOW + allowIlluminance;
+        allowIlluminance = countWindow * ILLUMINANCEWINDOW + allowIlluminance;
         return allowIlluminance;
     }
 
@@ -96,12 +96,11 @@ public class Room {
         Furneture furneture = new Furneture();
         furneture.setName(name);
         furneture.setArea(areaFurn);
+        allowArea = furneture.getArea();
+        allowArea += allowArea;
         furnetures.add(furneture);
-           for (int i = 0; i < furnetures.size(); i++) {
-            allowArea = furnetures.get(i).getArea()+allowArea;
-        }
-        }
 
+    }
 
 
     public void addIlluminance(String name, int illuminance) {
@@ -110,11 +109,9 @@ public class Room {
         illuminance1.setName(name);
         illuminance1.setIlluminance(illuminance);
         illuminances.add(illuminance1);
-        allowIlluminance = 0;
+        allowIlluminance = illuminance1.getIlluminance();
+        allowIlluminance += allowIlluminance;
 
-        for (int i = 0; i < illuminances.size(); i++) {
-            allowIlluminance = illuminances.get(i).getIlluminance() + allowIlluminance;
-        }
         allowIlluminance = allowIlluminance + countWindow * ILLUMINANCEWINDOW;
     }
 
