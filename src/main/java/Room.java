@@ -7,15 +7,12 @@ public class Room {
     private int countWindow;
     private int allowArea;
     private int allowIlluminance;
-    private final int ILLUMINANCEWINDOW = 700;
+    static final int ILLUMINANCEWINDOW = 700;
 
 
     private List<Illuminance> illuminances = new ArrayList<Illuminance>();
 
     private List<Furneture> furnetures = new ArrayList<Furneture>();
-
-    public Room() {
-    }
 
 
     public void describeIlluminanceRoom() {
