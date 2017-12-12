@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class RoomTest {
 
-    Room room;
+    private Room room;
     @BeforeMethod
     public void init(){
      room = new Room();
@@ -32,10 +32,10 @@ public class RoomTest {
     }
 
 
-    @Ignore
+   /* @Ignore
     public void addTetsException() throws SpaceUsageTooMuchException {
          room.setArea(150);
         room.addFurneture("nmnmn", 150);
-    }
+    }*/
 }
 
