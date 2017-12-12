@@ -39,6 +39,7 @@ public class Runner {
         } catch (IlluminanceTooMuchException e) {
             logger.error("Too much illuminance");
         }
+
     }
 
 }
